@@ -11,7 +11,7 @@ html, body {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
   color: #fff;
-  background: #444;
+  background: #2e2e2e; /* darker background */
 }
 
 /* Sticky Footer Layout */
@@ -28,7 +28,7 @@ main {
 /* Header */
 header {
   width: 100%;
-  height: 900px; /* increased height */
+  height: 1000px; /* taller header */
   background: url('../assets/images/headerBkg.jpeg') no-repeat center center;
   background-size: cover;
 
@@ -37,7 +37,7 @@ header {
   align-items: center;
   text-align: center;
 
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   text-shadow: 3px 3px 7px #000;
@@ -47,19 +47,19 @@ header {
 /* About Section */
 #about {
   width: 100%;
-  min-height: 700px;
-  background: #999;
+  background: #3b3b3b; /* darker shade */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 5%; /* space around the inner boxes */
+  padding: 0 5%;
   box-sizing: border-box;
 }
 
 /* Left Side */
 #aboutLeft {
   width: 45%;
-  background: #aaaaaa7e;
+  min-height: 500px; /* shorter vertically */
+  background: #4a4a4a;
   padding: 25px 35px;
   font-size: 1em;
   border-right: 1px solid #fff;
@@ -84,7 +84,8 @@ header {
 /* Right Side */
 #aboutRight {
   width: 45%;
-  background: linear-gradient(#555, #444);
+  min-height: 500px; /* shorter vertically */
+  background: linear-gradient(#2e2e2e, #1e1e1e); /* darker gradient */
   padding: 25px 35px;
   font-size: 1em;
 }
@@ -99,7 +100,7 @@ ul {
   color: #07b123;
   text-shadow: 3px 3px 7px #000;
   margin: 25px 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
   padding: 7px 0;
   padding-left: 7px;
   border-radius: 8px;
@@ -109,8 +110,8 @@ ul {
 /* Footer */
 footer {
   width: 100%;
-  min-height: 100px;
-  background: #222;
+  min-height: 70px; /* narrower footer */
+  background: #1a1a1a;
   text-align: center;
   padding-top: 18px;
   border-top: 1px solid #fff;
