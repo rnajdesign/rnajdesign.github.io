@@ -80,7 +80,8 @@ header {
     }
 footer {
   width: 100%;
-  min-height: 100px;
+  height: 100px;
+  overflow: hidden;
   background: #222;
   text-align: center;
   padding-top: 18px;
