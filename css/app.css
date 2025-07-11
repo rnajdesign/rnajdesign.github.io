@@ -8,7 +8,7 @@
 
 html, body {
   height: 100%;
-  font-size: 1.6em;
+  font-size: 1em; /* base 16px */
   font-family: "Roboto", sans-serif;
   color: #fff;
   background: #444;
@@ -30,7 +30,7 @@ header {
   height: 600px;
   background: url('../assets/images/headerBkg.jpeg') no-repeat center center;
   background-size: cover;
-  font-size: 2em;
+  font-size: 1.5em; /* smaller than before */
   text-align: center;
   padding-top: 200px;
   font-family: "Press Start 2P", system-ui;
@@ -45,7 +45,7 @@ header {
   min-height: 700px;
   background: #999;
   display: flex;
-  flex-wrap: wrap; /* For responsive behavior */
+  flex-wrap: wrap;
 }
 
 /* Left Side */
@@ -54,62 +54,9 @@ header {
   min-height: 700px;
   background: #aaaaaa7e;
   padding: 25px 50px;
-  font-size: 1.2em;
+  font-size: 1em; /* default paragraph size */
   border-right: 1px solid #fff;
 }
 
 #aboutLeft > p {
-  margin-bottom: 25px;
-}
-
-/* Bio Picture */
-.bioPic {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  float: left;
-  margin-right: 50px;
-  border: 3px solid #000;
-  box-shadow: 3px 3px 7px #333;
-  object-fit: cover;
-}
-
-/* Right Side */
-#aboutRight {
-  width: 50%;
-  min-height: 700px;
-  background: linear-gradient(#555, #444);
-  padding: 25px 50px;
-  font-size: 1.2em;
-}
-
-ul {
-  margin-left: 100px;
-  font-size: 1.2em;
-}
-
-/* Heading Style */
-.heading {
-  color: #07b123;
-  text-shadow: 3px 3px 7px #000;
-  margin: 25px 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0));
-  padding: 7px 0;
-  padding-left: 7px;
-  border-radius: 8px;
-}
-
-/* Footer */
-footer {
-  width: 100%;
-  min-height: 100px;
-  background: #222;
-  text-align: center;
-  padding-top: 18px;
-  border-top: 1px solid #fff;
-}
-
-/* Utility */
-.red {
-  color: #f00;
-}
+  m
