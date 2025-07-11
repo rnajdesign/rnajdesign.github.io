@@ -28,7 +28,7 @@ main {
 /* Header */
 header {
   width: 100%;
-  height: 750px; /* increased from 600px */
+  height: 900px; /* increased height */
   background: url('../assets/images/headerBkg.jpeg') no-repeat center center;
   background-size: cover;
 
@@ -58,7 +58,7 @@ header {
 
 /* Left Side */
 #aboutLeft {
-  width: 45%; /* was 50% */
+  width: 45%;
   background: #aaaaaa7e;
   padding: 25px 35px;
   font-size: 1em;
@@ -75,7 +75,7 @@ header {
   height: 200px;
   border-radius: 50%;
   float: left;
-  margin-right: 40px;
+  margin-right: 30px;
   border: 3px solid #000;
   box-shadow: 3px 3px 7px #333;
   object-fit: cover;
@@ -83,7 +83,7 @@ header {
 
 /* Right Side */
 #aboutRight {
-  width: 45%; /* was 50% */
+  width: 45%;
   background: linear-gradient(#555, #444);
   padding: 25px 35px;
   font-size: 1em;
