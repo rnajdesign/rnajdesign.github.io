@@ -36,12 +36,15 @@ header {
 }
 .bioPic {
   width: 350px;
+  height: 350px;
   border-radius: 50%;
   float: left;
   margin-right: 50px;
   border: 3px solid #000;
   box-shadow: 3px 3px 7px #333;
+  object-fit: cover;
 }
+
 #about {
   width: 100%;
   min-height: 700px;
