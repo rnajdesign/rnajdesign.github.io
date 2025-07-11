@@ -1,4 +1,3 @@
-/* Global Reset and Base Styles */
 * {
   padding: 0;
   margin: 0;
@@ -59,4 +58,59 @@ header {
 }
 
 #aboutLeft > p {
-  m
+  margin-bottom: 25px;
+}
+
+/* Bio Picture */
+.bioPic {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 7px #333;
+  object-fit: cover;
+}
+
+/* Right Side */
+#aboutRight {
+  width: 50%;
+  min-height: 700px;
+  background: linear-gradient(#555, #444);
+  padding: 25px 50px;
+  font-size: 1em; /* match left side */
+}
+
+ul {
+  margin-left: 100px;
+  font-size: 1em;
+}
+
+/* Heading Style */
+.heading {
+  color: #07b123;
+  text-shadow: 3px 3px 7px #000;
+  margin: 25px 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0));
+  padding: 7px 0;
+  padding-left: 7px;
+  border-radius: 8px;
+  font-size: 1.2em; /* slightly bigger for headings */
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  min-height: 100px;
+  background: #222;
+  text-align: center;
+  padding-top: 18px;
+  border-top: 1px solid #fff;
+  font-size: 1em;
+}
+
+/* Utility */
+.red {
+  color: #f00;
+}
