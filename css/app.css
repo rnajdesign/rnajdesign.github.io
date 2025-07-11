@@ -41,7 +41,6 @@ header {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   text-shadow: 3px 3px 7px #000;
-  border-bottom: 1px solid #fff;
 }
 
 /* About Section */
@@ -62,7 +61,6 @@ header {
   background: #4a4a4a;
   padding: 25px 35px;
   font-size: 1em;
-  border-right: 1px solid #fff;
 }
 
 #aboutLeft > p {
@@ -114,7 +112,6 @@ footer {
   background: #1a1a1a;
   text-align: center;
   padding-top: 18px;
-  border-top: 1px solid #fff;
   font-size: 1em;
 }
 
