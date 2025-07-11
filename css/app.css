@@ -7,13 +7,12 @@
 
 html, body {
   height: 100%;
-  font-size: 1em; /* base 16px */
+  font-size: 1em; 
   font-family: "Roboto", sans-serif;
   color: #fff;
   background: #444;
 }
 
-/* Sticky Footer Layout */
 body {
   display: flex;
   flex-direction: column;
@@ -23,22 +22,24 @@ main {
   flex: 1;
 }
 
-/* Header */
+
 header {
   width: 100%;
   height: 600px;
   background: url('../assets/images/headerBkg.jpeg') no-repeat center center;
   background-size: cover;
-  font-size: 1.5em; /* smaller than before */
-  text-align: center;
-  padding-top: 200px;
+  font-size: 1.5em;
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   text-shadow: 3px 3px 7px #000;
   border-bottom: 1px solid #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-/* About Section */
 #about {
   width: 100%;
   min-height: 700px;
@@ -47,13 +48,12 @@ header {
   flex-wrap: wrap;
 }
 
-/* Left Side */
 #aboutLeft {
   width: 50%;
   min-height: 700px;
   background: #aaaaaa7e;
   padding: 25px 50px;
-  font-size: 1em; /* default paragraph size */
+  font-size: 1em; 
   border-right: 1px solid #fff;
 }
 
@@ -61,7 +61,6 @@ header {
   margin-bottom: 25px;
 }
 
-/* Bio Picture */
 .bioPic {
   width: 350px;
   height: 350px;
@@ -73,13 +72,12 @@ header {
   object-fit: cover;
 }
 
-/* Right Side */
 #aboutRight {
   width: 50%;
   min-height: 700px;
   background: linear-gradient(#555, #444);
   padding: 25px 50px;
-  font-size: 1em; /* match left side */
+  font-size: 1em; 
 }
 
 ul {
@@ -87,7 +85,6 @@ ul {
   font-size: 1em;
 }
 
-/* Heading Style */
 .heading {
   color: #07b123;
   text-shadow: 3px 3px 7px #000;
@@ -96,10 +93,9 @@ ul {
   padding: 7px 0;
   padding-left: 7px;
   border-radius: 8px;
-  font-size: 1.2em; /* slightly bigger for headings */
+  font-size: 1.2em; 
 }
 
-/* Footer */
 footer {
   width: 100%;
   min-height: 100px;
@@ -110,7 +106,6 @@ footer {
   font-size: 1em;
 }
 
-/* Utility */
 .red {
   color: #f00;
 }
